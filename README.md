@@ -4,17 +4,17 @@
 
 Estimate of time needed to complete: 30 mins
 
-Start time: 2:15pm
+Start time: 2:15pm CT
 
-Finish time: 2:48pm
+Finish time: 2:48pm CT
 
 Actual time needed to complete: 33 mins
 
 ## Feature #2: Allow users to vote for their favorite beast
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 5:00pm CT
 
 Finish time: _____
 
