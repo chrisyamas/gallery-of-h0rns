@@ -42,6 +42,7 @@ class App extends React.Component {
         title={this.state.title}
         imageUrl={this.state.imageUrl}
         description={this.state.description}
+        horns={this.state.horns}
         />
       </>
     )
