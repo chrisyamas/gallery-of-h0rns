@@ -1,3 +1,36 @@
+# Lab 02 Time Estimates
+
+## Feature #1: Display images
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 2:15pm CT
+
+Finish time: 2:48pm CT
+
+Actual time needed to complete: 33 mins
+
+## Feature #2: Allow users to vote for their favorite beast
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 5:00pm CT
+
+Finish time: 6:30pm CT
+
+Actual time needed to complete: 90 mins
+
+## Feature #3: Bootstrap
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 6:45pm CT
+
+Finish time: 7:30pm CT
+
+Actual time needed to complete: 45 mins
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
