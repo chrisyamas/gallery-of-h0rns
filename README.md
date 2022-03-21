@@ -16,19 +16,19 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 5:00pm CT
 
-Finish time: _____
+Finish time: 6:30pm CT
 
-Actual time needed to complete: _____
+Actual time needed to complete: 90 mins
 
 ## Feature #3: Bootstrap
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 6:45pm CT
 
-Finish time: _____
+Finish time: 7:30pm CT
 
-Actual time needed to complete: _____
+Actual time needed to complete: 45 mins
 
 
 # Getting Started with Create React App
