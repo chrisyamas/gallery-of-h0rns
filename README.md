@@ -1,3 +1,16 @@
+
+# Lab 03 Time Estimates
+
+## Feature #1: Display a Modal
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 9:15pm CT
+
+Finish time: 11:18pm CT
+
+Actual time needed to complete: 2 hr 3 min
+
 # Lab 02 Time Estimates
 
 ## Feature #1: Display images
