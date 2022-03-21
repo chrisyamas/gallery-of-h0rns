@@ -1,11 +1,27 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
+import Forms from './Forms.js';
 import './Main.css';
 
 
 class Main extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state={
+      beasts: this.props.data,
+      horns: 0,
+    }
+  }
+
+  handleNumHorns=(value) => {
+    let beastsHorns = this.props.data.filter(beast => beast.horns===value)
+    this.setState({
+      beasts: beastsHorns
+    });
+  };
+
   render() {
-    let beasts=this.props.data.map((beast,idx) => {
+    let beasts=this.state.beasts.map((beast,idx) => {
       return (
         <HornedBeast
         title = {beast.title}
@@ -14,13 +30,20 @@ class Main extends React.Component {
         description = {beast.description}
         key = {idx}
         showModal={this.props.showModal}
+        beast={beast}
+        horns={beast.horns}
         />
       );
     });
     return (
-      <main>
-        {beasts}
-      </main>
+      <>
+        <Forms
+          handleNumHorns={this.handleNumHorns}
+        />
+        <main>
+          {beasts}
+        </main>  
+      </>
     );
   };
 };
