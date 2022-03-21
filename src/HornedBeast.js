@@ -37,6 +37,11 @@ class HornedBeast extends React.Component {
           >
              Fave This Beast
         </Button>
+        <div
+          className="num-horns"
+          >
+            This beast has {this.props.horns} horns!
+          </div>
       </article>
     );
   };
