@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 import './HornedBeast.css';
 
 class HornedBeast extends React.Component {
@@ -20,8 +21,17 @@ class HornedBeast extends React.Component {
         src={this.props.imageUrl}
         alt={this.props.keyword}/>
         <p>{this.props.description}</p>
-        <p>{this.state.favorites} favorites</p>
-        <p onClick={this.handleFavorites}>Click to Favorite this beast!</p>
+        <div
+          className="num-faves"
+          >
+          {this.state.favorites} 💜 's
+        </div>
+        <Button
+          onClick={this.handleFavorites}
+          className="article-button"
+          >
+             Fave This Beast
+        </Button>
       </article>
     );
   };
