@@ -12,14 +12,19 @@ class HornedBeast extends React.Component {
   handleFavorites = () => {
     this.setState({favorites: this.state.favorites + 1})
   };
+  handleModal = () => {
+    this.props.showModal(this.props.title, this.props.imageUrl, this.props.description);
+  }
 
   render() {
     return (
       <article>
         <h2>{this.props.title}</h2>
         <img 
-        src={this.props.imageUrl}
-        alt={this.props.keyword}/>
+          src={this.props.imageUrl}
+          alt={this.props.keyword}
+          onClick={this.handleModal}
+        />
         <p>{this.props.description}</p>
         <div
           className="num-faves"

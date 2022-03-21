@@ -5,15 +5,15 @@ import './Main.css';
 
 class Main extends React.Component {
   render() {
-    let beasts=[];
-    this.props.data.forEach((beast,idx) => {
-      beasts.push(
+    let beasts=this.props.data.map((beast,idx) => {
+      return (
         <HornedBeast
         title = {beast.title}
         imageUrl = {beast.image_url}
         keyword = {beast.keyword}
         description = {beast.description}
         key = {idx}
+        showModal={this.props.showModal}
         />
       );
     });

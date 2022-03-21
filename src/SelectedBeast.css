@@ -1,0 +1,12 @@
+.modal-header {
+  font-weight: bolder;
+}
+.modal-body img {
+  width: 90%;
+  margin-left: 1.5rem;
+  border-radius: 10px;
+}
+
+.modal-body p {
+  margin-left: 1.5rem;
+}
